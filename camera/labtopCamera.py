@@ -3,7 +3,7 @@ import cv2
 
 def capture_video_frames():
     print("macos camera is running...")
-    # Open the camera, o is usually the built-in camera
+    # Open the camera,（o is usually the built-in camera）
     cap = cv2.VideoCapture(0)
 
     while True:
