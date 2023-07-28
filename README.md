@@ -23,10 +23,9 @@
 ## 📌数据标注 
 对收集到的图片进行标注，将安全帽和未戴安全帽的位置和边界框标记出来，以便训练模型。<br>
 数据标注工具`Labelme`：https://github.com/wkentaro/labelme/releases <br>
-<img alt="opencv-python" src="readmePicture/annotation.jpg" title="OpenCV" width="500"/><br>
-标注后的结果文件是`.json`格式，如下图：
-<img alt="opencv-python" height="150" src="readmePicture/labelmeSourceFile.png" title="OpenCV" width="500"/><br>
-
+<img alt="opencv-python" src="readmePicture/annotation.jpg" title="OpenCV"/><br>
+标注后的结果文件是`.json`格式，如下图：<br>
+<img alt="opencv-python" src="readmePicture/labelmeSourceFile.png" title="OpenCV"/><br>
 
 ## 📌数据预处理
 对标注的数据进行预处理，包括图像的缩放、归一化等，以便于模型的输入。
@@ -53,3 +52,7 @@
 
 ## 📌持续优化
 对模型进行持续优化和更新，以适应实际应用中的不同场景和需求。
+可能存在的问题：<br>
+> 1、安全帽类型繁多，企业新研发出来的安全帽需要重新训练<br>
+> 2、构建数据集成本高昂，人工标注数据点<br>
+> 3、头盔颜色、头盔造型、图片清晰度、光照条件会对训练模型拟合度不好<br>
