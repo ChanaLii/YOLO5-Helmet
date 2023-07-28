@@ -56,5 +56,5 @@ if __name__ == '__main__':
     capture_video_frame(frame_count, win_name)
 
     # the path of delete jpg
-    dir_path = '../data_set/develop_data'
-    del_tmp_files(dir_path)
+    # dir_path = '../data_set/develop_data'
+    # del_tmp_files(dir_path)
