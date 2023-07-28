@@ -1,5 +1,6 @@
 # YOLO5-Helmet
 基于YOLO5目标检测算法实现安全帽脱帽、戴帽检测
+![](readmePicture/HatDEMO.png)
 
 ## ✅调用摄像头
 基于OpenCV调用笔记本电脑摄像头，将视频流转换为图像帧并保存JPG文件到磁盘。
