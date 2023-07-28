@@ -160,4 +160,3 @@ cython_debug/
 .idea/
 
 # Private data do not push to remote
-data_set/

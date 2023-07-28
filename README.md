@@ -5,7 +5,7 @@
 ## ✅调用摄像头
 基于OpenCV调用笔记本电脑摄像头，将视频流转换为图像帧并保存JPG文件到磁盘。
 
-<img alt="opencv-python" height="150" src="readmePicture/OpenCV.svg" title="OpenCV" width="300"/><br>
+<img alt="opencv-python" height="150" src="readmePicture/OpenCV.svg" title="OpenCV" width="500"/><br>
 以下是[OpenCV](https://www.geeksforgeeks.org/introduction-to-opencv/)使用较为重要的特性：
 ```markdown
 1、Reading an image
@@ -21,7 +21,12 @@
 首先，你需要收集带有安全帽和未戴安全帽的图片数据集。这些图片应涵盖不同场景、不同角度、不同光照条件等，以确保模型的`鲁棒性`。
 
 ## 📌数据标注 
-对收集到的图片进行标注，将安全帽和未戴安全帽的位置和边界框标记出来，以便训练模型。
+对收集到的图片进行标注，将安全帽和未戴安全帽的位置和边界框标记出来，以便训练模型。<br>
+数据标注工具`Labelme`：https://github.com/wkentaro/labelme/releases <br>
+<img alt="opencv-python" src="readmePicture/annotation.jpg" title="OpenCV" width="500"/><br>
+标注后的结果文件是`.json`格式，如下图：
+<img alt="opencv-python" height="150" src="readmePicture/labelmeSourceFile.png" title="OpenCV" width="500"/><br>
+
 
 ## 📌数据预处理
 对标注的数据进行预处理，包括图像的缩放、归一化等，以便于模型的输入。
