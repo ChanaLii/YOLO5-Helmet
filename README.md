@@ -8,7 +8,8 @@
 <h1 align="center">
  <img alt="opencv-python" height="150" src="readmePicture/OpenCV.svg" title="OpenCV" width="500"/><br>
 </h1>
-以下是[OpenCV](https://www.geeksforgeeks.org/introduction-to-opencv/)使用较为重要的特性：
+
+以下是[OpenCV](https://www.geeksforgeeks.org/introduction-to-opencv/)使用较为重要的特性：<br>
 ```markdown
 1、Reading an image
 2、Extracting the RGB values of a pixel
