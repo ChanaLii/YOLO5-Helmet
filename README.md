@@ -3,7 +3,9 @@
 
 ## ✅调用摄像头
 基于OpenCV调用笔记本电脑摄像头，将视频流转换为图像帧并保存JPG文件到磁盘。
-<br>以下是[OpenCV](https://www.geeksforgeeks.org/introduction-to-opencv/)使用较为频繁的特性：
+
+<img alt="opencv-python" height="150" src="readmePicture/OpenCV.svg" title="OpenCV" width="300"/><br>
+以下是[OpenCV](https://www.geeksforgeeks.org/introduction-to-opencv/)使用较为重要的特性：
 ```markdown
 1、Reading an image
 2、Extracting the RGB values of a pixel
